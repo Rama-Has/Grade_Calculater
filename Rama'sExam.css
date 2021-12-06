@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pass{
+    background-color: #cfc;
+    font-weight: bold;
+}
+
+.fail{
+    background-color: #fcc;
+    font-style: italic;
+}
