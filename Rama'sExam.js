@@ -58,15 +58,9 @@
         resultArea.appendChild(resultDiv);
     }
 
-    function clearAll(){
-        let failTotal = document.getElementsByClassName('fail');
-        for(let i =0 ; i<failTotal.length;i++){
-            failTotal[i].style.visibility = "hidden";
-        }
-        
-        let passT = document.getElementsByClassName("pass");
-        for(let i =0 ; i<passT.length;i++){
-            passT[i].style.visibility = "hidden";
-        }
-    }
+    $(document).ready(function(){
+        $("#clear").click(function(){
+         $("#resultArea div").hide();
+        });
+      });
 })();
